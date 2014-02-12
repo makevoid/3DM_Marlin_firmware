@@ -199,7 +199,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define INVERT_X_DIR false    // for Mendel set to false, for Orca set to true
 #define INVERT_Y_DIR false   // for 3dm1: false, for prusa i2: true
 #define INVERT_Z_DIR false  // for 3dm1: false, for prusa i2: true
-#define INVERT_E0_DIR false    // for direct drive extruder v9 set to true, for geared extruder set to false
+#define INVERT_E0_DIR true    // for direct drive extruder v9 set to true, for geared extruder set to false
 #define INVERT_E1_DIR false    // for direct drive extruder v9 set to true, for geared extruder set to false
 #define INVERT_E2_DIR false   // for direct drive extruder v9 set to true, for geared extruder set to false
 
@@ -263,7 +263,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
 //#define HOMING_FEEDRATE {50*60, 50*60, 4*60, 0}  // set the homing speeds (mm/min)
-#define HOMING_FEEDRATE {50*30, 50*30, 4*30, 0}    // set the homing speeds (mm/min)
+#define HOMING_FEEDRATE {45*60, 45*60, 3.5*60, 0}
 
 // default settings
 //
