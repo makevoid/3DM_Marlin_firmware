@@ -246,11 +246,11 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #endif
 
 // Travel limits after homing
-#define X_MAX_POS 370
+#define X_MAX_POS 290
 #define X_MIN_POS 0
-#define Y_MAX_POS 370
+#define Y_MAX_POS 240
 #define Y_MIN_POS 0
-#define Z_MAX_POS 320
+#define Z_MAX_POS 190
 
 // small X 195 - Y 210
 // big   X 290 - Y 240 
@@ -290,11 +290,10 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   {80,          80,  2560, 2500} // small pulleys - 20 teeth
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {100,          100,  2560, 1100} // small pulleys - 16 teeth
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {1066.7,          80,  2560, 1000} // small pulleys - 16 teeth
 
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,2560,674.65217}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
-#define DEFAULT_MAX_ACCELERATION      {1100, 1100,80,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
+#define DEFAULT_MAX_ACCELERATION      {1100, 1100,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          800    // X, Y, Z and E max acceleration in mm/s^2 for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  800   // X, Y, Z and E max acceleration in mm/s^2 for retracts
